@@ -9,8 +9,8 @@ import os.path
 import re
 from datetime import datetime
 
-from apiclient import http
-from apiclient.http import MediaFileUpload
+from googleapiclient import http
+from googleapiclient.http import MediaFileUpload
 from appdirs import AppDirs
 from progressbar import (AdaptiveETA, AdaptiveTransferSpeed, Bar, Percentage,
                          ProgressBar)
